@@ -1,33 +1,71 @@
 .Layout {
-  background-color: rgb(4, 173, 4);
+  background-color: hsl(156, 43%, 60%);
+  background-image: var(--gradient-dark);
   padding: 1rem;
 
   header,
   main,
   footer {
-    border: 0.15rem solid hsl(0, 0%, 0%, 0.5);
+    border: 0.15rem solid hsl(110, 47%, 72%);
     border-radius: 100vmax;
     width: fit-content;
     padding-inline: 0.75rem;
     padding-block: 0.25rem;
+    color: hsl(37, 73%, 87%);
+    transition: transform 500ms ease-in-out;
+
+    &:hover {
+      cursor: grab;
+      transition: transform 500ms ease-in-out;
+    }
   }
 
   header {
+    background-image: var(--gradient-dark);
     margin-right: auto;
-    color: hsl(350, 81%, 90%);
     font-size: 1.25rem;
+
+    &:hover {
+      transform: rotate(90deg) translate(2rem, 2rem);
+    }
   }
 
   main {
+    background-image: var(--gradient-medium);
     margin-inline: auto;
-    // padding-inline: 0.5rem;
-    color: hsl(195, 100%, 83%);
     font-size: 1.5rem;
+
+    &:hover {
+        color: #A0D995;
+        animation: seesaw 3s linear 0s infinite;
+    }
   }
 
   footer {
+    background-image: var(--gradient-light);
     margin-left: auto;
-    color: hsl(0, 97%, 76%);
     font-size: 1.15rem;
+
+    &:hover {
+      transform: translateY(-1rem);
+    }
+  }
+}
+
+@keyframes seesaw {
+  0% {
+      transform: rotate(0deg);
+  }
+  
+  33% {
+      transform: rotate(5deg);
+  }
+  
+  66% {
+      transform: rotate(-5deg);
+  }
+
+  100% {
+      transform: rotate(0deg);
   }
 }
