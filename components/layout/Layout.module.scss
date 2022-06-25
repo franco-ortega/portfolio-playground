@@ -12,60 +12,75 @@
     padding-inline: 0.75rem;
     padding-block: 0.25rem;
     color: hsl(37, 73%, 87%);
-    transition: transform 500ms ease-in-out;
-
-    &:hover {
-      cursor: grab;
-      transition: transform 500ms ease-in-out;
-    }
   }
 
   header {
     background-image: var(--gradient-dark);
     margin-right: auto;
     font-size: 1.25rem;
-
-    &:hover {
-      transform: rotate(90deg) translate(2rem, 2rem);
-    }
   }
 
   main {
     background-image: var(--gradient-medium);
     margin-inline: auto;
     font-size: 1.5rem;
-
-    &:hover {
-        color: #A0D995;
-        animation: seesaw 3s linear 0s infinite;
-    }
   }
 
   footer {
     background-image: var(--gradient-light);
     margin-left: auto;
     font-size: 1.15rem;
-
-    &:hover {
-      transform: translateY(-1rem);
-    }
   }
 }
 
-@keyframes seesaw {
-  0% {
-      transform: rotate(0deg);
-  }
-  
-  33% {
-      transform: rotate(5deg);
-  }
-  
-  66% {
-      transform: rotate(-5deg);
+@media (prefers-reduced-motion: no-preference) {
+  .Layout {
+    header,
+    main,
+    footer {
+      transition: transform 500ms ease-in-out;
+
+      &:hover {
+        cursor: grab;
+        transition: transform 500ms ease-in-out;
+      }
+    }
+
+    header {
+      &:hover {
+        transform: rotate(90deg) translate(2rem, 2rem);
+      }
+    }
+
+    main {
+      &:hover {
+        color: #a0d995;
+        animation: seesaw 3s linear 0s infinite;
+      }
+    }
+
+    footer {
+      &:hover {
+        transform: translateY(-1rem);
+      }
+    }
   }
 
-  100% {
+  @keyframes seesaw {
+    0% {
       transform: rotate(0deg);
+    }
+
+    33% {
+      transform: rotate(5deg);
+    }
+
+    66% {
+      transform: rotate(-5deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
   }
 }
