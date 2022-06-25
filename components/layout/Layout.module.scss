@@ -1,35 +1,29 @@
 .Layout {
-  background-color: hsl(156, 43%, 60%);
+  // background-color: hsl(156, 43%, 60%);
   background-image: var(--gradient-dark);
-  padding: 1rem;
+  // padding: 1rem;
+
+  position: absolute;
+  inset: 0;
 
   header,
   main,
   footer {
-    border: 0.15rem solid hsl(110, 47%, 72%);
-    border-radius: 100vmax;
-    width: fit-content;
-    padding-inline: 0.75rem;
-    padding-block: 0.25rem;
     color: hsl(37, 73%, 87%);
-  }
 
-  header {
-    background-image: var(--gradient-dark);
-    margin-right: auto;
-    font-size: 1.25rem;
+    // outline: 0.15rem solid hsl(110, 47%, 72%);
   }
 
   main {
     background-image: var(--gradient-medium);
     margin-inline: auto;
-    font-size: 1.5rem;
+    font-size: var(--font-size-text);
   }
 
   footer {
     background-image: var(--gradient-light);
     margin-left: auto;
-    font-size: 1.15rem;
+    font-size: var(--font-size-small);
   }
 }
 
@@ -39,17 +33,6 @@
     main,
     footer {
       transition: transform 500ms ease-in-out;
-
-      &:hover {
-        cursor: grab;
-        transition: transform 500ms ease-in-out;
-      }
-    }
-
-    header {
-      &:hover {
-        transform: rotate(90deg) translate(2rem, 2rem);
-      }
     }
 
     main {

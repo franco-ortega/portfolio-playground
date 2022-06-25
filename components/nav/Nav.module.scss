@@ -1,0 +1,41 @@
+.Nav {
+  background-color: hsl(156, 43%, 60%);
+  background-image: var(--gradient-dark);
+  outline: 2px dashed silver;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  margin-block: 1rem;
+  padding-block: 0.25rem;
+
+  font-family: var(--font-primary);
+  font-size: var(--font-size-nav);
+  line-height: var(--font-size-nav);
+
+  ul {
+    outline: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    li {
+        outline: 1px dotted lightblue;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Nav {
+    ul {
+      li {
+        transition: transform 500ms ease-in-out;
+
+        &:hover {
+          transform: translateX(1.5rem);
+        }
+      }
+    }
+  }
+}

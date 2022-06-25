@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Nav from '../nav/Nav';
 import styles from './Layout.module.scss';
 
 const Layout = ({ children }) => {
@@ -12,7 +13,9 @@ const Layout = ({ children }) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>Header?</header>
+      <header>
+        <Nav />
+      </header>
       <main>{children}</main>
       <footer>Footer!</footer>
     </div>
