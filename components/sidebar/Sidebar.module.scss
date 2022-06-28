@@ -1,4 +1,54 @@
 .Sidebar {
   background-color: hsl(0, 0%, 0%, 0.5);
-  color: hsl(100, 100%, 90%);
+  color: hsl(0, 0%, 85%);
+  letter-spacing: 0.25rem;
+  white-space: nowrap;
+  overflow-x: hidden;
+
+  height: 100%;
+  width: 8rem;
+  position: fixed;
+  // top: 0;
+  left: 0;
+  padding-top: 1rem;
+
+  transition: width 750ms linear;
+
+  p {
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  }
+
+  ul {
+    li {
+      display: block;
+      padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+      width: 100%;
+
+      span {
+        padding-left: 0.5rem;
+      }
+
+      &:hover {
+        color: hsl(0, 0%, 70%);
+      }
+    }
+  }
+
+  ul + ul {
+    padding-top: 1rem;
+  }
+}
+
+.Hamburger {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .SidebarClosed {
+    width: 2rem;
+  }
+
+  .Hamburger {
+    display: block;
+  }
 }
