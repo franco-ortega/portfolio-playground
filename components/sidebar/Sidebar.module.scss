@@ -1,7 +1,7 @@
 .Sidebar {
   background-color: hsl(0, 0%, 0%, 0.5);
   color: hsl(0, 0%, 85%);
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.1rem;
   white-space: nowrap;
   overflow-x: hidden;
 
@@ -48,7 +48,10 @@
     width: 2rem;
   }
 
-  .Hamburger {
-    display: block;
+  @media (max-width: 500px) {
+    .Hamburger {
+      display: block;
+    }
+    
   }
 }

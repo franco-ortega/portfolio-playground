@@ -15,21 +15,18 @@ const Sidebar = () => {
   const [sidebarActive, setSidebarActive] = useState(false);
 
   const onMouseOverSidebar = () => {
-    console.log('on mouse over');
     setSidebarActive(true);
   };
 
   const onMouseOutsideSidebar = () => {
-    console.log('on mouse outside');
     setSidebarActive(false);
   };
 
-  console.log(sidebarActive);
-
   const onHamburgerClick = () => {
-    console.log('HANBURGER!!!');
     setSidebarActive((prevState) => !prevState);
   };
+
+  console.log(sidebarActive);
 
   return (
     <nav
@@ -38,8 +35,8 @@ const Sidebar = () => {
           ? styles.Sidebar
           : `${styles.Sidebar} ${styles.SidebarClosed}`
       }
-      // onMouseOver={onMouseOverSidebar}
-      // onMouseOut={onMouseOutsideSidebar}
+      onMouseOver={onMouseOverSidebar}
+      onMouseOut={onMouseOutsideSidebar}
     >
       <p
         className={styles.Hamburger}
