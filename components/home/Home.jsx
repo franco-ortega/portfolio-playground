@@ -38,7 +38,7 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rem est earum eaque obcaecati corrupti!
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum unde reprehenderit voluptatem beatae, natus aliquid quia pariatur ullam?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rem est earum eaque obcaecati corrupti!
         </p>
       </section>
     </div>
