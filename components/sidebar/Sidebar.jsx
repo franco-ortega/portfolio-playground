@@ -41,8 +41,6 @@ const Sidebar = () => {
       <p
         className={styles.Hamburger}
         onClick={onHamburgerClick}
-        // onMouseOver={onMouseOverSidebar}
-        // onMouseOut={onMouseOutsideSidebar}
       >
         <FontAwesomeIcon icon={faBars} />
       </p>

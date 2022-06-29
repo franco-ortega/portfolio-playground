@@ -1,0 +1,23 @@
+.Home {
+  background-color: hsl(351, 100%, 90%, 0.75);
+  border-radius: 1rem;
+  margin-left: 2rem;
+  padding: 2rem;
+  margin: 3rem 3rem 3rem 5rem;
+
+  section {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    p {
+      background-color: hsl(351, 100%, 90%, 0.75);
+      border-radius: 1rem;
+      padding: 1rem;
+      flex-grow: 1;
+      flex-shrink: 0;
+      flex-basis: 0;
+    }
+  }
+}

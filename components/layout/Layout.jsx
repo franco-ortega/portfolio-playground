@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Nav from '../nav/Nav';
+import Sidebar from '../sidebar/Sidebar';
+// import Nav from '../nav/Nav';
 import styles from './Layout.module.scss';
 
 const Layout = ({ children }) => {
@@ -14,10 +15,11 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <Nav />
+        {/* <Nav /> */}
+        <Sidebar />
       </header>
       <main>{children}</main>
-      <footer>Footer!</footer>
+      {/* <footer>Footer!</footer> */}
     </div>
   );
 };
