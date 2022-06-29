@@ -1,14 +1,14 @@
 .Sidebar {
-  background-color: hsl(0, 0%, 0%, 0.5);
+  background-color: hsl(0, 0%, 10%);
   color: hsl(0, 0%, 85%);
   letter-spacing: 0.1rem;
   white-space: nowrap;
   overflow-x: hidden;
 
   height: 100%;
-  width: 8rem;
+  width: 7.5rem;
   position: fixed;
-  // top: 0;
+  top: 0;
   left: 0;
   padding-top: 1rem;
 
@@ -52,6 +52,5 @@
     .Hamburger {
       display: block;
     }
-    
   }
 }

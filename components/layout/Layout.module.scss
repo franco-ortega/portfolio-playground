@@ -1,78 +1,10 @@
 .Layout {
-  // background-color: hsl(156, 43%, 60%);
+  background-color: hsl(156, 43%, 60%);
   background-image: var(--gradient-dark);
-  // padding: 1rem;
 
   position: absolute;
   inset: 0;
-
-  header,
-  // main,
-  footer {
-    color: hsl(37, 73%, 87%);
-  }
-
-  // main,
-  footer {
-    border-radius: 100vmax;
-    width: fit-content;
-  }
-
-  // main {
-  //   background-image: var(--gradient-medium);
-  //   margin: 2rem auto;
-  //   padding-inline: 1rem;
-  //   font-size: var(--font-size-text);
-  //   text-align: center;
-
-  //   outline: 0.15rem solid hsl(110, 47%, 72%);
-  // }
-
-  footer {
-    background-image: var(--gradient-light);
-    margin-left: auto;
-    padding-inline: 0.5rem;
-    font-size: var(--font-size-small);
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Layout {
-    header,
-    // main,
-    footer {
-      transition: transform 500ms ease-in-out;
-    }
-
-    // main {
-    //   &:hover {
-    //     color: #a0d995;
-    //     animation: seesaw 3s linear 0s infinite;
-    //   }
-    // }
-
-    footer {
-      &:hover {
-        transform: translateY(-1rem);
-      }
-    }
-  }
-
-  // @keyframes seesaw { 
-  //   0% {
-  //     transform: rotate(0deg);
-  //   }
-
-  //   33% {
-  //     transform: rotate(5deg);
-  //   }
-
-  //   66% {
-  //     transform: rotate(-5deg);
-  //   }
-
-  //   100% {
-  //     transform: rotate(0deg);
-  //   }
-  // }
 }
