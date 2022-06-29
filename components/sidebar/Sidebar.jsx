@@ -13,6 +13,7 @@ import { useState } from 'react';
 
 const Sidebar = () => {
   const [sidebarActive, setSidebarActive] = useState(false);
+  // const [hamburgerActive, setHamburgerActive] = useState(false);
 
   const onMouseOverSidebar = () => {
     setSidebarActive(true);
@@ -22,11 +23,19 @@ const Sidebar = () => {
     setSidebarActive(false);
   };
 
-  const onHamburgerClick = () => {
-    setSidebarActive((prevState) => !prevState);
+  const onSidebarClick = () => {
+    // setSidebarActive((prevState) => !prevState);
+    if(sidebarActive) setSidebarActive(false);
+    if(!sidebarActive) setSidebarActive(true);
   };
 
-  console.log(sidebarActive);
+  // const onHamburgerClick = async() => {
+  //   await setHamburgerActive((prevState) => !prevState);
+  //   if(hamburgerActive) setSidebarActive(true);
+  //   if(!hamburgerActive) setSidebarActive(false);
+  // };
+
+  // console.log(sidebarActive, hamburgerActive);
 
   return (
     <nav
@@ -37,13 +46,14 @@ const Sidebar = () => {
       }
       onMouseOver={onMouseOverSidebar}
       onMouseOut={onMouseOutsideSidebar}
+      onClick={onSidebarClick}
     >
-      <p
+      {/* <p
         className={styles.Hamburger}
         onClick={onHamburgerClick}
       >
         <FontAwesomeIcon icon={faBars} />
-      </p>
+      </p> */}
       <ul>
         <li>
           <FontAwesomeIcon icon={faHouse} /> <span>Home</span>
