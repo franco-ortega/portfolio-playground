@@ -1,15 +1,18 @@
 .Layout {
   background-color: hsl(156, 43%, 60%);
   background-image: var(--gradient-dark);
-  border: 2px solid gold;
+  // border: 1rem solid rgb(170, 159, 94, .5);
+  height: 100vh;
 
-  position: absolute;
+  // position: absolute;
   // inset: 0;
   // top: 0;
   // left: 0;
   // bottom: 0;
   // right: 0;
   // height: 100vh;
+
+  overflow: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
