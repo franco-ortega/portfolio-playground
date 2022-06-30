@@ -18,3 +18,4 @@
     1. The sidebar on mobile closes when the area outside the sidebar is clicked.
     1. After the sidebar is open, the hamburger menu seems to work correctly. However, on page load the sidebar is closed, and clicking on the hamburger menu first triggers the onMouseOver to make the sidebarActive true, but then the onHamburgerClick function sets the state to its opposite state, so false, and therefore, the sidebar doesn't open. This behavior also happens anytime that the sidebar is closed by clicking outside the sidebar; then when you click on the hamburger, nothing seems to happen.
 1. Make sure the hamburger menu is accessible.
+1. NextJS links can only hold one child, so it's an issue to have a link that includes an icon and text. Why???

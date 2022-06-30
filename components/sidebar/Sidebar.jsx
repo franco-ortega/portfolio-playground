@@ -10,6 +10,7 @@ import {
 import styles from './Sidebar.module.scss';
 import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Sidebar = () => {
   const [sidebarActive, setSidebarActive] = useState(false);
@@ -25,8 +26,8 @@ const Sidebar = () => {
 
   const onSidebarClick = () => {
     // setSidebarActive((prevState) => !prevState);
-    if(sidebarActive) setSidebarActive(false);
-    if(!sidebarActive) setSidebarActive(true);
+    if (sidebarActive) setSidebarActive(false);
+    if (!sidebarActive) setSidebarActive(true);
   };
 
   // const onHamburgerClick = async() => {
@@ -56,11 +57,27 @@ const Sidebar = () => {
       </p> */}
       <ul>
         <li>
+          <Link href="/">
+            <FontAwesomeIcon icon={faHouse} />
+          </Link>
+          <Link href="/">
+            <span>Home</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <FontAwesomeIcon icon={faUser} />
+          </Link>
+          <Link href="/about">
+            <span>About</span>
+          </Link>
+        </li>
+        {/* <li>
           <FontAwesomeIcon icon={faHouse} /> <span>Home</span>
         </li>
         <li>
           <FontAwesomeIcon icon={faUser} /> <span>About</span>
-        </li>
+        </li> */}
         <li>
           <FontAwesomeIcon icon={faFolder} /> <span>Projects</span>
         </li>
