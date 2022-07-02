@@ -1,4 +1,4 @@
-// import Image from 'next/image';
+import Image from 'next/image';
 import styles from './About.module.scss';
 
 const About = () => {
@@ -6,12 +6,14 @@ const About = () => {
     <div className={styles.About}>
       <h2>About</h2>
       <section>
-        {/* <Image
+        <Image
           src="https://placekitten.com/300/300"
           alt="kitten"
-          layout="fill"
-        /> */}
-        <p>IMAGE</p>
+          // layout="fill"
+          width='300'
+          height='300'
+        />
+        {/* <p>IMAGE</p> */}
         <h3>Name Name</h3>
       </section>
       <section>
