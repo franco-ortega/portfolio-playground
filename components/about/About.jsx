@@ -7,9 +7,8 @@ const About = () => {
       <h2>About</h2>
       <section>
         <Image
-          src="https://placekitten.com/300/300"
-          alt="kitten"
-          // layout="fill"
+          src='https://placekitten.com/300/300'
+          alt='kitten'
           width='300'
           height='300'
         />
