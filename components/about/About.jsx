@@ -6,21 +6,21 @@ const About = () => {
     <div className={styles.About}>
       <h2>About</h2>
       <section>
-        <Image
-          src="https://placekitten.com/300/300"
-          alt="kitten"
-          // layout="fill"
-          width='300'
-          height='300'
-        />
-        {/* <p>IMAGE</p> */}
-        <h3>Name Name</h3>
-      </section>
-      <section>
-        <div>Email</div>
-        <div>Phone</div>
-        <div>GitHub</div>
-        <div>LinkedIn</div>
+        <div>
+          <Image
+            src='https://placekitten.com/300/300'
+            alt='kitten'
+            width='300'
+            height='300'
+          />
+        </div>
+        <div>
+          <h3>First Last</h3>
+          <div>email.me@email.com</div>
+          <div>503-555-5555</div>
+          <div>GitHub</div>
+          <div>LinkedIn</div>
+        </div>
       </section>
       <section>
         <p>

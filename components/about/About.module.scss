@@ -11,6 +11,27 @@
     align-items: center;
     gap: 1rem;
 
+    img {
+      border-radius: 1rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    div + div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      // border: red solid 2px;
+    }
+
+    h3 ~ div {
+      font-size: 1.25rem;
+      // border: lightblue solid 2px;
+    }
+
     p {
       background-color: hsl(351, 100%, 90%, 0.75);
       border-radius: 1rem;
@@ -26,8 +47,13 @@
   .About {
     margin: 2rem 3rem 3rem 5rem;
     padding: 2rem;
+
     section {
       flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    section + section {
       align-items: flex-start;
     }
   }
