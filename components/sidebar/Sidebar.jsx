@@ -90,13 +90,32 @@ const Sidebar = () => {
       </ul>
       <ul>
         <li>
-          <FontAwesomeIcon icon={faHashtag} /> <span>GitHub</span>
+          <FontAwesomeIcon icon={faHashtag} />{' '}
+          <span>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </span>
         </li>
         <li>
-          <FontAwesomeIcon icon={faHashtag} /> <span>LinkedIn</span>
+          <FontAwesomeIcon icon={faHashtag} />{' '}
+          <span>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </span>
         </li>
         <li>
-          <FontAwesomeIcon icon={faHashtag} /> <span>Twitter</span>
+          <FontAwesomeIcon icon={faHashtag} />{' '}
+          <span>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+              Twitter
+            </a>
+          </span>
         </li>
       </ul>
     </nav>

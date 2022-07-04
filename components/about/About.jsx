@@ -24,11 +24,14 @@ const About = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </div>
-          
         </div>
       </section>
       <section>
