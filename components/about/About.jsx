@@ -16,22 +16,15 @@ const About = () => {
         </div>
         <div>
           <h3>First Last</h3>
-          <div>email.me@email.com</div>
-          <div>503-555-5555</div>
-          <div>
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-          </div>
+          <a href="mailto:email@email.com">email@email.com</a>
+          <a href="tel:503-555-5555">503-555-5555</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
         </div>
       </section>
       <section>
