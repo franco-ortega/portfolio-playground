@@ -8,18 +8,27 @@ const About = () => {
       <section>
         <div>
           <Image
-            src='https://placekitten.com/300/300'
-            alt='kitten'
-            width='300'
-            height='300'
+            src="https://placekitten.com/300/300"
+            alt="kitten"
+            width="300"
+            height="300"
           />
         </div>
         <div>
           <h3>First Last</h3>
           <div>email.me@email.com</div>
           <div>503-555-5555</div>
-          <div>GitHub</div>
-          <div>LinkedIn</div>
+          <div>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+          </div>
+          
         </div>
       </section>
       <section>
