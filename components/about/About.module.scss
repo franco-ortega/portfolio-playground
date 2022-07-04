@@ -24,12 +24,17 @@
       flex-direction: column;
       align-items: center;
       gap: 1rem;
-      // border: red solid 2px;
-    }
+      // outline: red solid 2px;
 
-    h3 ~ div {
-      font-size: 1.25rem;
-      // border: lightblue solid 2px;
+      a {
+        opacity: 50%;
+        font-size: 1.25rem;
+        // outline: blue solid 2px;
+
+        &:hover {
+          opacity: 75%;
+        }
+      }
     }
 
     p {
