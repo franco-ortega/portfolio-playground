@@ -2,10 +2,14 @@ import styles from './Nav.module.scss';
 
 const Nav = () => {
   return (
-    <nav className={styles.Nav}>
+    <div className={styles.Nav}>
+      <h1>Franco Ortega</h1>
+      <h2>Software Engineer</h2>
+
+    <nav>
       <ul>
         <li>Home</li>
-        <li>About</li>
+        {/* <li>About</li> */}
         <li>Projects</li>
         <li>Contact</li>
         <li>Resume</li>
@@ -20,6 +24,7 @@ const Nav = () => {
         <li>Twitter</li>
       </ul>
     </nav>
+    </div>
   );
 };
 

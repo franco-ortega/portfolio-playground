@@ -23,3 +23,8 @@
 ### Start Site
 1. `nvm use 16.13.0`
 1. `yarn dev`
+
+## Nav Bar
+1. Links to each page
+1. Name
+1. Title

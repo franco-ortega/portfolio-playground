@@ -1,31 +1,31 @@
 .Nav {
-  background-color: hsl(156, 43%, 60%);
-  background-image: var(--gradient-dark);
-  outline: 2px dashed silver;
+  // background-color: hsl(156, 43%, 60%);
+  // background-image: var(--gradient-dark);
+  // outline: 2px dashed silver;
 
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  // display: flex;
+  // flex-direction: column;
+  // gap: 0.25rem;
 
-  margin-block-start: 1rem;
-  padding-block: 0.25rem;
+  // margin-block-start: 1rem;
+  // padding-block: 0.25rem;
 
-  color: hsl(37, 73%, 87%);
-  font-family: var(--font-primary);
-  font-size: var(--font-size-nav);
-  line-height: var(--font-size-nav);
+  // color: hsl(37, 73%, 87%);
+  // font-family: var(--font-primary);
+  // font-size: var(--font-size-nav);
+  // line-height: var(--font-size-nav);
 
   ul {
     // outline: 1px solid blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-evenly;
 
     li {
-      border-radius: 100vmax;
-      background-color: rgba(255, 0, 247, 0.25);
-      padding-inline: 0.25rem;
-      outline: 1px dotted lightblue;
+      // border-radius: 100vmax;
+      // background-color: rgba(255, 0, 247, 0.25);
+      // padding-inline: 0.25rem;
+      // outline: 1px dotted lightblue;
     }
   }
 }
@@ -34,13 +34,13 @@
   .Nav {
     ul {
       li {
-        transition: transform 1000ms ease-in-out, background-color 1000ms linear,
-          color 1000ms linear;
+        // transition: transform 1000ms ease-in-out, background-color 1000ms linear,
+        //   color 1000ms linear;
 
         &:hover {
-          background-color: rgba(255, 0, 247, 0.5);
-          color: hsl(57, 73%, 97%);
-          transform: translateX(1.25rem);
+          // background-color: rgba(255, 0, 247, 0.5);
+          // color: hsl(57, 73%, 97%);
+          // transform: translateX(1.25rem);
         }
       }
     }
