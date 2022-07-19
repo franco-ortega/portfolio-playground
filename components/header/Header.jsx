@@ -5,8 +5,6 @@ const Header = () => {
     <header className={styles.Header}>
       <div>
         <h1>Franco Ortega</h1>
-      </div>
-      <div>
         <h2>Software Engineer</h2>
       </div>
       <nav>
