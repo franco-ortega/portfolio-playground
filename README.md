@@ -24,7 +24,9 @@
 1. `nvm use 16.13.0`
 1. `yarn dev`
 
-## Nav Bar
+## Nav Bar -> Header
 1. Links to each page
-1. Name
-1. Title
+1. Name - CANCEL
+1. Title - CANCEL
+
+## Projects Page
