@@ -30,3 +30,6 @@
 1. Title - CANCEL
 
 ## Projects Page
+
+
+1. [Carousel article](https://dev.to/rakumairu/simple-react-carousel-24m0)

@@ -1,0 +1,61 @@
+.Carousel {
+  background-color: lightyellow;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  overflow: hidden;
+
+  div {
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    button {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translate(-50%);
+      width: 3rem;
+      height: 3rem;
+      border-radius: 1.5rem;
+      background-color: white;
+      border: 1pm solid #ddd;
+    }
+
+    button:first-child {
+      left: 1.5rem;
+    }
+    button:last-child {
+      right: -1.5rem;
+    }
+
+    div {
+      width: 100%;
+
+      div {
+        display: flex;
+        transition: all 250ms linear;
+        // -ms-overflow-style: none;
+        // scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        // & > * {
+        //     width: 100%;
+        //     flex-shrink: 0;
+        //     flex-grow: 1;
+        //   }
+      }
+    }
+
+    div > * {
+      width: 100%;
+      flex-shrink: 0;
+      flex-grow: 1;
+    }
+  }
+}
