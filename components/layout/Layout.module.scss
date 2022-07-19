@@ -1,8 +1,9 @@
 .Layout {
-  background-color: hsl(156, 43%, 60%);
-  background-image: var(--gradient-dark);
+  background-color: hsl(150, 65%, 40%);
+  padding: 1rem;
+  // background-image: var(--gradient-dark);
   // border: 1rem solid rgb(170, 159, 94, .5);
-  height: 100vh;
+  // height: 100vh;
 
   // position: absolute;
   // inset: 0;
@@ -10,7 +11,7 @@
   // left: 0;
   // bottom: 0;
   // right: 0;
-  // height: 100vh;
+  height: 100vh;
 
   overflow: auto;
 }
@@ -20,7 +21,12 @@
 
 @media (min-width: 500px) {
   .Layout {
-      inset: 0;
+    padding: 2rem 4rem;
   }
-  
+}
+
+@media (min-width: 900px) {
+  .Layout {
+    padding: 2rem 3rem;
+  }
 }
