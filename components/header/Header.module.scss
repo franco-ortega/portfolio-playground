@@ -1,27 +1,27 @@
 .Header {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  // gap: 0.25rem;
 
   margin-bottom: 1rem;
 
-//   background-color: aliceblue;
+  // background-color: aliceblue;
 
-  div {
-    text-align: center;
+  // div {
+  // text-align: center;
 
-    h1 {
-      font-size: 2rem;
+  // h1 {
+  // font-size: 2rem;
 
-      // background-color: lightblue;
-    }
+  // background-color: lightblue;
+  // }
 
-    h2 {
-      font-size: 1.5rem;
+  // h2 {
+  // font-size: 1.5rem;
 
-      // background-color: lightgreen;
-    }
-  }
+  // background-color: lightgreen;
+  // }
+  // }
 
   nav {
     display: flex;
@@ -36,7 +36,7 @@
       justify-content: center;
       gap: 1rem;
 
-    //   background-color: lightgray;
+      // background-color: lightgray;
 
       a {
         color: hsl(0, 0%, 20%);
@@ -60,11 +60,11 @@
   .Header {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     nav {
-        // justify-content: space-between;
-        gap: 1rem;
+      // justify-content: space-between;
+      gap: 1rem;
       ul {
         li {
           transition: transform 500ms;
@@ -88,6 +88,11 @@
     nav {
       flex-direction: row;
       align-items: center;
+      gap: 2rem;
+
+      ul {
+        gap: 2rem;
+      }
     }
   }
 }
