@@ -1,10 +1,16 @@
+import Image from 'next/image';
+import profilePic from '../../assets/FrancoOrtega.jpg';
 import styles from './Home.module.scss';
 
 const Home = () => {
   return (
     <div className={styles.Home}>
       <p>
-        I&apos;m a full-stack software engineer who leans toward the frontend. I
+        Welcome! My name is <span>Franco Ortega</span>.
+      </p>
+      <Image src={profilePic} alt="" width="1160" height="1160"></Image>
+      <p>
+        I&apos;m a Full Stack Software Engineer who leans toward the frontend. I
         love to create intuitive interfaces paired with proper guidance. I
         appreciate well-documented and efficient processes that offer both
         structure and flexibility. I value clear and kind communication,

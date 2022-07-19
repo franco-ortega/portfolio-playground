@@ -6,27 +6,16 @@
   // padding: 2rem;
   // margin: 3rem 3rem 3rem 5rem;
 
-  // max-height: 75vh;
-  overflow: auto;
+  p {
+    // background-color: hsl(351, 100%, 40%, 0.75);
+    // border-radius: 1rem;
+    // padding: 1rem;
+    // flex-grow: 1;
+    // flex-shrink: 0;
+    // flex-basis: 0;
 
-  section {
-    margin-top: 1rem;
-    // display: flex;
-    // flex-direction: column;
-    // gap: 2rem;
-    // overflow: auto;
-
-
-
-    p {
-      // background-color: hsl(351, 100%, 40%, 0.75);
-      // border-radius: 1rem;
-      // padding: 1rem;
-      // flex-grow: 1;
-      // flex-shrink: 0;
-      // flex-basis: 0;
-      overflow: auto;
-      
+    span {
+      font-weight: bold;
     }
   }
 }
