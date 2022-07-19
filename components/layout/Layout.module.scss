@@ -14,14 +14,6 @@
   height: 100vh;
 
   overflow: auto;
-  
-  main {
-    // display: flex;
-    // flex-direction: column;
-    // gap: 2rem;
-    // max-height: 85%;
-    // overflow: auto;
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -31,12 +23,10 @@
   .Layout {
     padding: 2rem 4rem;
   }
-  
 }
 
 @media (min-width: 900px) {
   .Layout {
-      padding: 2rem 3rem;
+    padding: 2rem 3rem;
   }
-  
 }

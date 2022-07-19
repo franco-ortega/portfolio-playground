@@ -9,12 +9,14 @@ const Home = () => {
         <p>
           Welcome! My name is <span>Franco Ortega</span>.
         </p>
-        <Image src={profilePic} alt="" width="1160" height="1160"></Image>
+        <div>
+          <Image src={profilePic} alt="" width="1160" height="1160"></Image>
+        </div>
       </section>
       <section>
         <p>
-          I&apos;m a Full Stack Software Engineer who leans into the frontend.
-          I love to create intuitive interfaces paired with proper guidance. I
+          I&apos;m a Full Stack Software Engineer who leans into the frontend. I
+          love to create intuitive interfaces paired with proper guidance. I
           appreciate well-documented and efficient processes that offer both
           structure and flexibility. I value clear and kind communication,
           creativity, cross-functional collaboration, and supportive
