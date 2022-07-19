@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Header.module.scss';
 
 const Header = () => {
@@ -9,8 +10,12 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li>Home</li>
-          {/* <li>About</li> */}
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
           <li>Projects</li>
           <li>Resume</li>
           <li>Contact</li>
