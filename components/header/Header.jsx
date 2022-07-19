@@ -1,8 +1,8 @@
-import styles from './Nav.module.scss';
+import styles from './Header.module.scss';
 
-const Nav = () => {
+const Header = () => {
   return (
-    <div className={styles.Nav}>
+    <header className={styles.Header}>
       <div>
         <h1>Franco Ortega</h1>
       </div>
@@ -27,8 +27,8 @@ const Nav = () => {
         {/* <li>Twitter</li> */}
         {/* </ul> */}
       </nav>
-    </div>
+    </header>
   );
 };
 
-export default Nav;
+export default Header;

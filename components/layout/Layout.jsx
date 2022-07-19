@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../header/Header';
 import Nav from '../nav/Nav';
 import styles from './Layout.module.scss';
 
@@ -13,9 +14,10 @@ const Layout = ({ children }) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
+      {/* <header>
         <Nav />
-      </header>
+      </header> */}
+      <Header />
       <main>{children}</main>
     </div>
   );

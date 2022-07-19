@@ -1,0 +1,79 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 0.5rem;
+  
+    background-color: aliceblue;
+  
+    h1 {
+      width: fit-content;
+      // margin-bottom: 0.25rem;
+      font-size: 2rem;
+  
+      // background-color: lightblue;
+    }
+  
+    h2 {
+      margin-bottom: 0.25rem;
+      font-size: 1.75rem;
+  
+      // background-color: lightgreen;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+  
+      // background-color: lightgray;
+    }
+    // background-color: hsl(156, 43%, 60%);
+    // background-image: var(--gradient-dark);
+    // outline: 2px dashed silver;
+  
+    // display: flex;
+    // flex-direction: column;
+    // gap: 0.25rem;
+  
+    // margin-block-start: 1rem;
+    // padding-block: 0.25rem;
+  
+    // color: hsl(37, 73%, 87%);
+    // font-family: var(--font-primary);
+    // font-size: var(--font-size-nav);
+    // line-height: var(--font-size-nav);
+  
+    ul {
+      // outline: 1px solid blue;
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: space-evenly;
+  
+      li {
+        // border-radius: 100vmax;
+        // background-color: rgba(255, 0, 247, 0.25);
+        // padding-inline: 0.25rem;
+        // outline: 1px dotted lightblue;
+      }
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Nav {
+      ul {
+        li {
+          // transition: transform 1000ms ease-in-out, background-color 1000ms linear,
+          //   color 1000ms linear;
+  
+          &:hover {
+            // background-color: rgba(255, 0, 247, 0.5);
+            // color: hsl(57, 73%, 97%);
+            // transform: translateX(1.25rem);
+          }
+        }
+      }
+    }
+  }
+  
