@@ -1,25 +1,32 @@
 .Home {
-  background-color: hsl(351, 100%, 90%, 0.75);
+  // background-color: hsl(60, 50%, 75%);
   // background-image: var(--gradient-medium);
-  border-radius: 1rem;
-  margin-left: 2rem;
-  padding: 2rem;
-  margin: 3rem 3rem 3rem 5rem;
+  // border-radius: 1rem;
+  // margin-left: 2rem;
+  // padding: 2rem;
+  // margin: 3rem 3rem 3rem 5rem;
+
+  // max-height: 75vh;
+  overflow: auto;
 
   section {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    margin-top: 1rem;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 2rem;
+    // overflow: auto;
+
 
 
     p {
-      background-color: hsl(351, 100%, 90%, 0.75);
-      border-radius: 1rem;
-      padding: 1rem;
-      flex-grow: 1;
-      flex-shrink: 0;
-      flex-basis: 0;
+      // background-color: hsl(351, 100%, 40%, 0.75);
+      // border-radius: 1rem;
+      // padding: 1rem;
+      // flex-grow: 1;
+      // flex-shrink: 0;
+      // flex-basis: 0;
+      overflow: auto;
+      
     }
   }
 }

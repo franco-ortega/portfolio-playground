@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 0.25rem;
 
+  margin-bottom: 1rem;
+
 //   background-color: aliceblue;
 
   div {
@@ -26,13 +28,15 @@
     flex-direction: column;
     gap: 0.25rem;
 
+    // background-color: lightskyblue;
+
     ul {
       display: flex;
       flex-direction: row;
       justify-content: center;
       gap: 1rem;
 
-      // background-color: lightgray;
+    //   background-color: lightgray;
 
       a {
         color: hsl(0, 0%, 20%);
@@ -56,9 +60,11 @@
   .Header {
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     nav {
+        // justify-content: space-between;
+        gap: 1rem;
       ul {
         li {
           transition: transform 500ms;

@@ -3,7 +3,7 @@
   padding: 1rem;
   // background-image: var(--gradient-dark);
   // border: 1rem solid rgb(170, 159, 94, .5);
-  height: 100vh;
+  // height: 100vh;
 
   // position: absolute;
   // inset: 0;
@@ -11,9 +11,17 @@
   // left: 0;
   // bottom: 0;
   // right: 0;
-  // height: 100vh;
+  height: 100vh;
 
   overflow: auto;
+  
+  main {
+    // display: flex;
+    // flex-direction: column;
+    // gap: 2rem;
+    max-height: 85%;
+    overflow: auto;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,7 +29,14 @@
 
 @media (min-width: 500px) {
   .Layout {
-      inset: 0;
+    padding: 2rem 4rem;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .Layout {
+      padding: 2rem 3rem;
   }
   
 }
