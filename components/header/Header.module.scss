@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 0.25rem;
 
-    // background-color: aliceblue;
+  background-color: aliceblue;
 
   div {
     text-align: center;
@@ -11,13 +11,13 @@
     h1 {
       font-size: 2rem;
 
-        // background-color: lightblue;
+      // background-color: lightblue;
     }
 
     h2 {
       font-size: 1.5rem;
 
-        // background-color: lightgreen;
+      // background-color: lightgreen;
     }
   }
 
@@ -32,7 +32,7 @@
       justify-content: center;
       gap: 1rem;
 
-        // background-color: lightgray;
+      // background-color: lightgray;
 
       a {
         color: hsl(0, 0%, 20%);
@@ -71,6 +71,15 @@
           }
         }
       }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .Header {
+    nav {
+      flex-direction: row;
+      align-items: center;
     }
   }
 }
