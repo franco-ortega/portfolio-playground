@@ -33,6 +33,10 @@
       gap: 1rem;
 
       //   background-color: lightgray;
+
+      a {
+        color: hsl(0, 0%, 20%);
+      }
     }
   }
 }
@@ -41,9 +45,28 @@
   .Nav {
     ul {
       li {
-        
         &:hover {
-        
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .Header {
+    nav {
+      ul {
+        li {
+          transition: transform 500ms;
+          &:hover {
+            transform: scale(1.25);
+          }
+          a {
+            transition: color 500ms;
+            &:hover {
+              color: hsl(100, 20%, 30%);
+            }
+          }
         }
       }
     }
