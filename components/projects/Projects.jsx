@@ -1,27 +1,6 @@
 import Carousel from '../carousel/Carousel';
+import Project from './Project';
 import styles from './Projects.module.scss';
-
-const Project = ({ title }) => {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        // color: 'white',
-        border: '3px solid green',
-        // width: '20rem',
-      }}
-    >
-      <h3 style={{ backgroundColor: 'gray', width: 'fit-content' }}>{title}</h3>
-      <p style={{ backgroundColor: 'darkgray' }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti
-        ullam necessitatibus quasi. Dolores provident aliquid non id cumque
-        porro tempore cupiditate soluta quo quasi?
-      </p>
-    </div>
-  );
-};
 
 const Projects = () => {
   return (
@@ -32,6 +11,9 @@ const Projects = () => {
           <Project title="One" />
           <Project title="Two" />
           <Project title="Three" />
+          <Project title="Four" />
+          <Project title="Five" />
+          <Project title="Six" />
         </Carousel>
       </section>
       <section>
@@ -40,6 +22,8 @@ const Projects = () => {
           <Project title="A" />
           <Project title="B" />
           <Project title="C" />
+          <Project title="D" />
+          <Project title="E" />
         </Carousel>
       </section>
     </div>

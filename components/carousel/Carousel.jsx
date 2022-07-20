@@ -27,13 +27,13 @@ const Carousel = ({ children }) => {
   return (
     <div className={styles.Carousel}>
       <div>
-        <button onClick={onPrevClick}>&lt;</button>
+        <button onClick={onPrevClick} disabled={!currentIndex}>&lt;</button>
         <div>
           <div style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
             {children}
           </div>
         </div>
-        <button onClick={onNextClick}>&gt;</button>
+        <button onClick={onNextClick} disabled={currentIndex === length - 1}>&gt;</button>
       </div>
     </div>
   );
