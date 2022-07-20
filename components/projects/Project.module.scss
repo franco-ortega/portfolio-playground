@@ -1,17 +1,23 @@
 .Project {
+  border: 3px solid green;
+  border-radius: 1rem;
+  width: 50%;
+  padding: .5rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
+
   color: white;
-  border: 3px solid green;
-  width: 50%;
 
   h3 {
-    background-color: gray;
+    // background-color: gray;
     width: fit-content;
   }
 
   p {
-    background-color: darkgray;
+    // background-color: darkgray;
+    text-align: justify;
   }
 }
