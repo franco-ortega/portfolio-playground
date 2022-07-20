@@ -1,8 +1,8 @@
 .Project {
-  border: 3px solid green;
+  border: 0.25rem solid lightgreen;
   border-radius: 1rem;
   width: 50%;
-  padding: .5rem;
+  padding: 0.5rem;
 
   display: flex;
   flex-direction: column;
@@ -12,12 +12,12 @@
   color: white;
 
   h3 {
-    // background-color: gray;
     width: fit-content;
+    // background-color: gray;
   }
 
   p {
-    // background-color: darkgray;
     text-align: justify;
+    // background-color: darkgray;
   }
 }
