@@ -32,4 +32,5 @@
 ## Projects Page
 
 
-1. [Carousel article](https://dev.to/rakumairu/simple-react-carousel-24m0)
+1. [How to build a Carousel](https://dev.to/rakumairu/simple-react-carousel-24m0)
+1. [Swipe the Carousel on touch screens](https://dev.to/rakumairu/how-to-handle-swipe-event-on-react-carousel-24ab)
