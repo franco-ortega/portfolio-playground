@@ -24,7 +24,13 @@
 1. `nvm use 16.13.0`
 1. `yarn dev`
 
-## Nav Bar
+## Nav Bar -> Header
 1. Links to each page
-1. Name
-1. Title
+1. Name - CANCEL
+1. Title - CANCEL
+
+## Projects Page
+
+
+1. [How to build a Carousel](https://dev.to/rakumairu/simple-react-carousel-24m0)
+1. [Swipe the Carousel on touch screens](https://dev.to/rakumairu/how-to-handle-swipe-event-on-react-carousel-24ab)

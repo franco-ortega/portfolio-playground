@@ -1,0 +1,17 @@
+.Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border: 3px solid green;
+  width: 50%;
+
+  h3 {
+    background-color: gray;
+    width: fit-content;
+  }
+
+  p {
+    background-color: darkgray;
+  }
+}
