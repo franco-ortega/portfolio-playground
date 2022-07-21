@@ -3,7 +3,7 @@ import styles from './Project.module.scss';
 
 const Project = ({ title }) => {
   return (
-    <div className={styles.Project}>
+    <section className={styles.Project}>
       <h3>{title}</h3>
       <Image
         src="https://placekitten.com/g/200/200"
@@ -16,7 +16,7 @@ const Project = ({ title }) => {
         ullam necessitatibus quasi. Dolores provident aliquid non id cumque
         porro tempore cupiditate soluta quo quasi?
       </p>
-    </div>
+    </section>
   );
 };
 
