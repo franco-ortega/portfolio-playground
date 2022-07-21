@@ -1,4 +1,4 @@
-import Carousel from '../carousel/Carousel';
+import Carousel from '../carousel/Carousel2';
 import Project from './Project';
 import styles from './Projects.module.scss';
 
