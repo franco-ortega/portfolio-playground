@@ -1,6 +1,8 @@
 .Project {
   background-color: purple;
+  border: 0.1rem solid pink;
   width: 100%;
+  // margin: 1rem;
   // padding: 0.5rem;
 
   display: flex;
@@ -10,3 +12,9 @@
 
   color: white;
 }
+
+// @media (min-width: 500px) {
+//   .Project {
+//     width: 50%;
+//   }
+// }
